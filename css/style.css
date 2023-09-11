@@ -103,6 +103,7 @@ ul{
 
 .contact-box span{
     font-size: 25px;
+    cursor: pointer;
 }
 
 .contact-box button{
@@ -111,6 +112,7 @@ ul{
     background-color: black;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .fa-blogger-b:hover{
@@ -122,9 +124,33 @@ ul{
 }
 
 .fa-instagram:hover{
-    color : #FCB045;
+    color :  #DD2A7B;
 }
 
 .contact-box button:nth-of-type(1){
     width: 70px;
+}
+
+/*main*/
+.holding-box{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid crimson;
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 0;
+}
+
+.slide-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
