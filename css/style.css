@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -159,11 +159,65 @@ ul{
 .process{
     width: 100%;
     height: 200px;
-    margin: 50px 20px 0 20px;
+    margin: 50px 20px 0 50px;
 }
 
 .process img{
     width: 90%;
     height: 100%;
     object-fit: contain;
+}
+
+.portfolio{
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+}
+.portfolio button{
+    width: 80px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 28%;
+    background: white;
+}
+.portfolio-box{
+    width: 850px;
+    height: 800px;
+    display: inline-block;
+    padding-left: 80px;
+    overflow: hidden;
+}
+
+.portfolio-wrap{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.portfolio-wrap div{
+    width: 230px;
+    height: 300px;
+}
+
+.portfolio-wrap div img{
+    width: 100%;
+    height: 300px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #383737;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
 }
